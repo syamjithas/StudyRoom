@@ -1,0 +1,43 @@
+<h1>Show / Hide Animation with pure CSS</h1>
+
+<label class="trigger">
+  <input type="checkbox" class="checkbox checkbox--red" /> Show additional information
+  <span class="msg">
+    Hey there, I'm fading in/out with pure CSS. How cool is that?!
+  </span>
+</label>
+
+/**
+ * Notice: Checkbox is styled via import of my other pen (https://codepen.io/fxm90/pen/JdmaeL)
+ */
+
+.trigger {
+  input[type="checkbox"] {
+    
+    // Hide content via default
+    & + span {
+      visibility: hidden;
+      opacity: 0;
+    
+      transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+    }
+    
+    // Show if checkbox is clicked
+    &:checked + span {
+      visibility: visible;
+      opacity: 1;
+      
+      transition-delay: 0s;
+    }
+  }
+}
+
+// Simple styling for message.
+.msg {
+  display: block;
+  margin-top: 8px;
+  padding: 8px 12px;
+  
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

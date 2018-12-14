@@ -1,0 +1,31 @@
+Data base details
+
+oracle DB
+user name : default
+password : oracle$
+Destination Folder: C:\PgrmFile\oraclexe\
+Oracle Home: C:\PgrmFile\oraclexe\app\oracle\product\11.2.0\server\
+Oracle Base:C:\PgrmFile\oraclexe\
+Port for 'Oracle Database Listener': 1521
+Port for 'Oracle Services for Microsoft Transaction Server': 2030
+Port for 'Oracle HTTP Listener': 8080
+
+
+
+Installation Directory: C:\Program Files\PostgreSQL\11
+Server Installation Directory: C:\Program Files\PostgreSQL\11
+Data Directory: C:\Program Files\PostgreSQL\11\data
+Database Port: 5432
+Database Superuser: postgres
+Operating System Account: NT AUTHORITY\NetworkService
+Database Service: postgresql-x64-11
+Command Line Tools Installation Directory: C:\Program Files\PostgreSQL\11
+pgAdmin4 Installation Directory: C:\Program Files\PostgreSQL\11\pgAdmin 4
+Stack Builder Installation Directory: C:\Program Files\PostgreSQL\11
+
+
+
+user name : postgres
+Password : postgres$
+port : 5432
+

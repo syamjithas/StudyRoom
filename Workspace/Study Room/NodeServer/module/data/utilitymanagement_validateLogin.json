@@ -1,0 +1,22 @@
+{
+    "uuid": null,
+    "correlationId": null,
+    "sessionId": null,
+    "errorInformationList": null,
+    "user": {
+        "accessToken": "e98ce9c6d54cb360cd149ac9c32e7de0",
+        "authenticated": true,
+        "branchCode": "99",
+        "branchName": "Head Office",
+        "branchType": "Conventional",
+        "empId": 956,
+        "expiresIn": 3600,
+        "msgToUser": null,
+        "refreshToken": "7acd677e4c43b87b6373296452a65b7",
+        "role": "WCUS,RSM Conv,Credit Operations Checker,DSA Conv,Inquiry User,PSE,CODC,CAU",
+        "tokenType": null,
+        "userName": "Arefa Al Hashimi"
+    },
+    "channelId": "6",
+    "authenticated": true
+}

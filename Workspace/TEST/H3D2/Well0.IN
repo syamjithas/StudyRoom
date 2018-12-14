@@ -1,0 +1,6 @@
+*** Input File Well.in *****************
+iWell
+1
+zWBot    zWInit radiusW  WellPump  cWell 
+-29.4     -7.2     0.61    0.0	   1
+****************************************

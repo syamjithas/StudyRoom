@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Love you</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body {
+            height: 100%;
+            widows: 100%;
+            padding: 5%;
+            margin: 0;
+            background-color: black;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .content {
+            position: relative;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+        }
+        
+        .left {
+            position: relative;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            text-align: left
+        }
+        
+        .heart {
+            font-size: 100px;
+            color: #e00;
+            animation: beat .25s infinite alternate;
+            transform-origin: center;
+            cursor: pointer;
+            width: 300px;
+            margin: auto;
+            left: 0;
+            right: 0;
+        }
+        
+        .heart::after {
+            content: '\2665'
+        }
+        
+        @keyframes beat {
+            to {
+                transform: scale(1.4);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="heart" class="heart"></div>
+    </div>
+    <br>
+    <br>
+    <div class="content">Touch my heart</div>
+    <div class="left"></div>
+    <script>
+        arr = ["Loading.",
+            "Loading..",
+            "Loading...",
+            "Loading....",
+            "Loading....."
+        ]
+        arr2 = ["Vaveeeeeeeeee",
+            "You know you love me, I know you care",
+            "Just shout whenever and I 'll be there",
+            "You are my love, you are my heart",
+            "And we will never, ever, ever be apart...........",
+            "Love you lots vaveeeeeeee",
+            "I don't know how much i miss you............",
+            "When I see your face",
+            "There 's not a thing that I would change",
+            "Cause you 're amazing just the way you are",
+            "And when you smile",
+            "The whole world stops and stares for a while",
+            "Cause, girl, you 're amazing just the way you are...........",
+            "Can't Live without you, Cause my heart is beating for you"
+        ]
+
+        var div = document.createElement('div')
+        div.classList.add('left');
+        var getRandom = function(n) {
+            return Math.floor((Math.random() * n) + 1)
+        }
+
+        function wait(time) {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve(true);
+                }, time)
+            })
+        }
+        async function domWriter() {
+            for (var j = 0; j < getRandom(2); j++)
+                for (var i = 0; i < arr.length; i++) {
+                    await wait(500);
+                    document.querySelector('div.content').innerText = arr[i];
+                }
+            await wait(200);
+            document.querySelector('div.content').innerText = "Loading Complated";
+            await wait(200);
+
+            document.querySelector('div.content').innerText = "";
+            await wait(200);
+            for (var i = 0; i < arr2.length; i++) {
+                await wait(2000);
+                for (var j = 0; j <= arr2[i].length; j++) {
+                    document.querySelector('div.left').innerText = arr2[i].substring(0, j);
+                    if (arr2[i][j - 1] == ",") {
+                        await wait(500);
+                    }
+                    await wait(50);
+                }
+            }
+            var i = 0;
+            while (true) {
+                i = i == 1 ? 0 : 1;
+                var ummma1 = "umma umma umma."
+                var ummma2 = "ummmmmmaa..";
+                var umma = i == 1 ? ummma1 : ummma2;
+                var doc = div.cloneNode();
+                document.body.appendChild(doc);
+                for (var j = 0; j <= umma.length; j++) {
+                    doc.innerText = umma.substring(0, j);
+                    await wait(100);
+                }
+                document.body.removeChild(document.querySelector('div.left'))
+            }
+
+        }
+
+        var started = false;
+        document.getElementById('heart').addEventListener("touchstart", function() {
+            !started && domWriter();
+            started = true;
+        }, false);
+
+        document.getElementById('heart').addEventListener("click", function() {
+            !started && domWriter();
+            started = true;
+        }, false);
+    </script>
+
+</body>
+
+</html>

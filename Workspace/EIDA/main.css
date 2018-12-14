@@ -1,0 +1,48 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+md-toolbar .md-toolbar-tools {
+    background-color: #006666;
+}
+
+.png-icon {
+    margin: auto auto;
+    padding: 0;
+    display: inline-block;
+    background-repeat: no-repeat no-repeat;
+    pointer-events: none;
+}
+
+.avathar-img {
+    height: 154px;
+    width: 130px;
+}
+
+.tab-height {
+    height: calc(100vh - 100px);
+}
+
+.loader-overlay {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    background-color: #0000007d;
+    overflow: hidden;
+}
+
+.progress-container {
+    position: relative;
+    top: 75%;
+    margin-top: -12.5%;
+    left: 75%;
+    margin-left: -30%;
+}

@@ -1,0 +1,815 @@
+{
+    "listOfBanks": {
+        "uuid": "372BC93E-0FCC-4D9D-F10F-DEBCCC941BB2",
+        "correlationId": "",
+        "sessionId": "",
+        "errorInformationList": null,
+        "masterDataList": [
+            {
+                "listName": null,
+                "id": "2",
+                "description": "The Royal Bank Of Scotland N.V."
+            },
+            {
+                "listName": null,
+                "id": "3",
+                "description": "Abu Dhabi Commercial Bank"
+            },
+            {
+                "listName": null,
+                "id": "4",
+                "description": "Al Ahli Bank Of Kuwait K.S.C."
+            },
+            {
+                "listName": null,
+                "id": "5",
+                "description": "Rafidain Bank"
+            },
+            {
+                "listName": null,
+                "id": "7",
+                "description": "Arab African International Bank"
+            },
+            {
+                "listName": null,
+                "id": "8",
+                "description": "Al Masraf"
+            },
+            {
+                "listName": null,
+                "id": "9",
+                "description": "Arab Bank"
+            },
+            {
+                "listName": null,
+                "id": "10",
+                "description": "Bank Melli Iran"
+            },
+            {
+                "listName": null,
+                "id": "11",
+                "description": "Bank of Baroda"
+            },
+            {
+                "listName": null,
+                "id": "12",
+                "description": "Bank of Sharjah"
+            },
+            {
+                "listName": null,
+                "id": "13",
+                "description": "Bank Saderat Iran"
+            },
+            {
+                "listName": null,
+                "id": "14",
+                "description": "Blom Bank France"
+            },
+            {
+                "listName": null,
+                "id": "15",
+                "description": "BANQUE MISR"
+            },
+            {
+                "listName": null,
+                "id": "16",
+                "description": "Credit Agricole Corporate and Investment Bank"
+            },
+            {
+                "listName": null,
+                "id": "17",
+                "description": "Al Khaliji France S.A."
+            },
+            {
+                "listName": null,
+                "id": "18",
+                "description": "BNP Paribas"
+            },
+            {
+                "listName": null,
+                "id": "19",
+                "description": "Barclays Bank"
+            },
+            {
+                "listName": null,
+                "id": "20",
+                "description": "HSBC Middle East"
+            },
+            {
+                "listName": null,
+                "id": "21",
+                "description": "Citibank NA"
+            },
+            {
+                "listName": null,
+                "id": "22",
+                "description": "Commercial Bank International PSC"
+            },
+            {
+                "listName": null,
+                "id": "23",
+                "description": "Commercial Bank of Dubai"
+            },
+            {
+                "listName": null,
+                "id": "24",
+                "description": "Dubai Islamic Bank"
+            },
+            {
+                "listName": null,
+                "id": "25",
+                "description": "El Nilein Bank"
+            },
+            {
+                "listName": null,
+                "id": "26",
+                "description": "EmiratesNBD Bank PJSC"
+            },
+            {
+                "listName": null,
+                "id": "27",
+                "description": "First Gulf Bank"
+            },
+            {
+                "listName": null,
+                "id": "28",
+                "description": "Habib Bank Limited"
+            },
+            {
+                "listName": null,
+                "id": "29",
+                "description": "Habib Bank AG Zurich"
+            },
+            {
+                "listName": null,
+                "id": "30",
+                "description": "Investbank PSC"
+            },
+            {
+                "listName": null,
+                "id": "31",
+                "description": "Janata Bank"
+            },
+            {
+                "listName": null,
+                "id": "32",
+                "description": "LLoyds TSB"
+            },
+            {
+                "listName": null,
+                "id": "33",
+                "description": "Mashreqbank PCS"
+            },
+            {
+                "listName": null,
+                "id": "34",
+                "description": "Emirates Islamic Bank PJSC"
+            },
+            {
+                "listName": null,
+                "id": "35",
+                "description": "National Bank of Abu Dhabi"
+            },
+            {
+                "listName": null,
+                "id": "36",
+                "description": "National Bank Of Bahrain"
+            },
+            {
+                "listName": null,
+                "id": "38",
+                "description": "National Bank Of Fujairah"
+            },
+            {
+                "listName": null,
+                "id": "39",
+                "description": "National Bank of Oman"
+            },
+            {
+                "listName": null,
+                "id": "40",
+                "description": "National Bank of Ras Al-Khaimah"
+            },
+            {
+                "listName": null,
+                "id": "41",
+                "description": "Sharjah Islamic Bank"
+            },
+            {
+                "listName": null,
+                "id": "42",
+                "description": "National Bank Of Umm Al Qaiwain"
+            },
+            {
+                "listName": null,
+                "id": "43",
+                "description": "Industrial and Commercial Bank of China"
+            },
+            {
+                "listName": null,
+                "id": "44",
+                "description": "Standard Chartered Bank"
+            },
+            {
+                "listName": null,
+                "id": "45",
+                "description": "Union National Bank"
+            },
+            {
+                "listName": null,
+                "id": "46",
+                "description": "United Arab Bank"
+            },
+            {
+                "listName": null,
+                "id": "47",
+                "description": "United Bank Ltd."
+            },
+            {
+                "listName": null,
+                "id": "48",
+                "description": "Emirates Investment Bank"
+            },
+            {
+                "listName": null,
+                "id": "49",
+                "description": "Deutsche Bank"
+            },
+            {
+                "listName": null,
+                "id": "50",
+                "description": "Abu Dhabi Islamic Bank"
+            },
+            {
+                "listName": null,
+                "id": "51",
+                "description": "Dubai Bank"
+            },
+            {
+                "listName": null,
+                "id": "52",
+                "description": "Noor Islamic Bank"
+            },
+            {
+                "listName": null,
+                "id": "53",
+                "description": "Al Hilal Bank"
+            },
+            {
+                "listName": null,
+                "id": "54",
+                "description": "Doha Bank"
+            },
+            {
+                "listName": null,
+                "id": "55",
+                "description": "SAMBA Financial Group"
+            },
+            {
+                "listName": null,
+                "id": "56",
+                "description": "National Bank Of Kuwait"
+            },
+            {
+                "listName": null,
+                "id": "57",
+                "description": "Ajman Bank"
+            },
+            {
+                "listName": null,
+                "id": "58",
+                "description": "Ministry of Civil Service"
+            },
+            {
+                "listName": null,
+                "id": "59",
+                "description": "Ministry of Health - Dubai"
+            },
+            {
+                "listName": null,
+                "id": "60",
+                "description": "Ministry of Finance(Abu Dhabi)"
+            },
+            {
+                "listName": null,
+                "id": "61",
+                "description": "Diwan of HHSultanBinZayedAlNahyan (PR)"
+            },
+            {
+                "listName": null,
+                "id": "62",
+                "description": "Court Deputy Prime Minister(H)"
+            },
+            {
+                "listName": null,
+                "id": "63",
+                "description": "Ministry of Education Dubai"
+            },
+            {
+                "listName": null,
+                "id": "64",
+                "description": "Ministry of Foreign Affairs"
+            },
+            {
+                "listName": null,
+                "id": "65",
+                "description": "Ministry of Interior"
+            },
+            {
+                "listName": null,
+                "id": "66",
+                "description": "Ministry of Education"
+            },
+            {
+                "listName": null,
+                "id": "67",
+                "description": "Ministry of Health"
+            },
+            {
+                "listName": null,
+                "id": "68",
+                "description": "Ministry of Finance and Industry"
+            },
+            {
+                "listName": null,
+                "id": "69",
+                "description": "Ministry of Economy"
+            },
+            {
+                "listName": null,
+                "id": "70",
+                "description": "Ministry of Energy"
+            },
+            {
+                "listName": null,
+                "id": "71",
+                "description": "Ministry of Cabinet Affairs"
+            },
+            {
+                "listName": null,
+                "id": "72",
+                "description": "Ministry of Labour"
+            },
+            {
+                "listName": null,
+                "id": "73",
+                "description": "Ministry of Public Works"
+            },
+            {
+                "listName": null,
+                "id": "74",
+                "description": "Ministry of Justice"
+            },
+            {
+                "listName": null,
+                "id": "75",
+                "description": "Ministry of Environment and Water"
+            },
+            {
+                "listName": null,
+                "id": "76",
+                "description": "Ministry of H.E and S.R"
+            },
+            {
+                "listName": null,
+                "id": "77",
+                "description": "Ministry of DV.F G.S"
+            },
+            {
+                "listName": null,
+                "id": "78",
+                "description": "Ministry of S. Affairs"
+            },
+            {
+                "listName": null,
+                "id": "79",
+                "description": "Ministry of Culture Y CD"
+            },
+            {
+                "listName": null,
+                "id": "80",
+                "description": "Ministry of FNC"
+            },
+            {
+                "listName": null,
+                "id": "81",
+                "description": "Finance House"
+            },
+            {
+                "listName": null,
+                "id": "82",
+                "description": "DUNIA FINANCE"
+            },
+            {
+                "listName": null,
+                "id": "83",
+                "description": "Islamic Finance Company"
+            },
+            {
+                "listName": null,
+                "id": "84",
+                "description": "MAWARID FINANCE"
+            },
+            {
+                "listName": null,
+                "id": "85",
+                "description": "MAF Finance"
+            },
+            {
+                "listName": null,
+                "id": "88",
+                "description": "Islamic Finance House"
+            },
+            {
+                "listName": null,
+                "id": "100",
+                "description": "Dubai First"
+            },
+            {
+                "listName": null,
+                "id": "101",
+                "description": "Reem Finance PJSC"
+            },
+            {
+                "listName": null,
+                "id": "205",
+                "description": "Al Ahalia Money Exchange Bureau-Abu"
+            },
+            {
+                "listName": null,
+                "id": "206",
+                "description": "Al Ansari Exchange"
+            },
+            {
+                "listName": null,
+                "id": "209",
+                "description": "Al Bader Exchange"
+            },
+            {
+                "listName": null,
+                "id": "214",
+                "description": "Al Falah Exchange Co"
+            },
+            {
+                "listName": null,
+                "id": "215",
+                "description": "Al Fardan Exchange"
+            },
+            {
+                "listName": null,
+                "id": "216",
+                "description": "Al Fuad Exchange"
+            },
+            {
+                "listName": null,
+                "id": "217",
+                "description": "Al Gergawi Exchange LLC"
+            },
+            {
+                "listName": null,
+                "id": "218",
+                "description": "Al Ghurair Exchange"
+            },
+            {
+                "listName": null,
+                "id": "219",
+                "description": "Al Ghurair International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "232",
+                "description": "Al Razouki International Exchange Co. LLC"
+            },
+            {
+                "listName": null,
+                "id": "233",
+                "description": "Al Zari & Al Fardan Exchange LLC"
+            },
+            {
+                "listName": null,
+                "id": "235",
+                "description": "JoyAlukkas Exchange"
+            },
+            {
+                "listName": null,
+                "id": "236",
+                "description": "Arabian Exchange Co."
+            },
+            {
+                "listName": null,
+                "id": "238",
+                "description": "Asia Exchange Centre"
+            },
+            {
+                "listName": null,
+                "id": "245",
+                "description": "City Exchange - LLC"
+            },
+            {
+                "listName": null,
+                "id": "246",
+                "description": "Daniba International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "249",
+                "description": "Dubai Exchange Centre - LLC"
+            },
+            {
+                "listName": null,
+                "id": "252",
+                "description": "Emirates India International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "253",
+                "description": "Federal Exchange"
+            },
+            {
+                "listName": null,
+                "id": "254",
+                "description": "First Gulf Exchange Centre"
+            },
+            {
+                "listName": null,
+                "id": "256",
+                "description": "Gulf Express Exchange"
+            },
+            {
+                "listName": null,
+                "id": "258",
+                "description": "Habib Exchange Co. LLC"
+            },
+            {
+                "listName": null,
+                "id": "259",
+                "description": "Hadi Express Exchange"
+            },
+            {
+                "listName": null,
+                "id": "267",
+                "description": "Lari Exchange"
+            },
+            {
+                "listName": null,
+                "id": "268",
+                "description": "Lee La Megh Exchange LLC"
+            },
+            {
+                "listName": null,
+                "id": "269",
+                "description": "Malik Exchange"
+            },
+            {
+                "listName": null,
+                "id": "270",
+                "description": "Multinet Trust Exchange - LLC"
+            },
+            {
+                "listName": null,
+                "id": "273",
+                "description": "National Exchange Co."
+            },
+            {
+                "listName": null,
+                "id": "275",
+                "description": "Orient Exchange Co.- LLC"
+            },
+            {
+                "listName": null,
+                "id": "277",
+                "description": "Redha Al Ansari Exchange Est."
+            },
+            {
+                "listName": null,
+                "id": "285",
+                "description": "Shaheen Money Exchange LLC"
+            },
+            {
+                "listName": null,
+                "id": "286",
+                "description": "Sharjah International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "289",
+                "description": "Alneel Exchange"
+            },
+            {
+                "listName": null,
+                "id": "290",
+                "description": "Al Rostamani International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "291",
+                "description": "UAE Exchange Center LLC"
+            },
+            {
+                "listName": null,
+                "id": "293",
+                "description": "Universal Exchange Centre"
+            },
+            {
+                "listName": null,
+                "id": "294",
+                "description": "Wall Street Exchange Centre LLC"
+            },
+            {
+                "listName": null,
+                "id": "301",
+                "description": "GCC Exchange"
+            },
+            {
+                "listName": null,
+                "id": "302",
+                "description": "Economic Exchange Centre"
+            },
+            {
+                "listName": null,
+                "id": "303",
+                "description": "Belhasa Global Exchange"
+            },
+            {
+                "listName": null,
+                "id": "308",
+                "description": "Al Nibal International Exchange"
+            },
+            {
+                "listName": null,
+                "id": "312",
+                "description": "Delma Exchange"
+            },
+            {
+                "listName": null,
+                "id": "313",
+                "description": "Sharaf Exchange LLC"
+            },
+            {
+                "listName": null,
+                "id": "314",
+                "description": "Lulu Exchange"
+            },
+            {
+                "listName": null,
+                "id": "315",
+                "description": "Smart Exchange"
+            },
+            {
+                "listName": null,
+                "id": "316",
+                "description": "Al Jaber Exchange"
+            },
+            {
+                "listName": null,
+                "id": "317",
+                "description": "Send Exchange"
+            },
+            {
+                "listName": null,
+                "id": "318",
+                "description": "OMDA Exchange"
+            },
+            {
+                "listName": null,
+                "id": "319",
+                "description": "Muthoot Exchange"
+            },
+            {
+                "listName": null,
+                "id": "320",
+                "description": "Al Dhafra Exchange"
+            },
+            {
+                "listName": null,
+                "id": "322",
+                "description": "Arab Link Money Transfer"
+            },
+            {
+                "listName": null,
+                "id": "801",
+                "description": "GEN AUTHORITY FOR PENSIONS & SI"
+            },
+            {
+                "listName": null,
+                "id": "802",
+                "description": "EMIRATES INDUSTRIAL BANK"
+            },
+            {
+                "listName": null,
+                "id": "803",
+                "description": "CENTRAL BANK OF KUWAIT"
+            },
+            {
+                "listName": null,
+                "id": "804",
+                "description": "CENTRAL BANK OF KUWAIT K-NET"
+            },
+            {
+                "listName": null,
+                "id": "805",
+                "description": "CENTRAL BANK ALGERIES"
+            },
+            {
+                "listName": null,
+                "id": "806",
+                "description": "CENTRAL BANK MAGHRIB"
+            },
+            {
+                "listName": null,
+                "id": "807",
+                "description": "CENTRAL BANK TUNISIA"
+            },
+            {
+                "listName": null,
+                "id": "808",
+                "description": "BMA Benefit (002)"
+            },
+            {
+                "listName": null,
+                "id": "809",
+                "description": "REAL ESTATE BANK"
+            },
+            {
+                "listName": null,
+                "id": "810",
+                "description": "FEDERAL CUSTOMS"
+            },
+            {
+                "listName": null,
+                "id": "811",
+                "description": "CENTRAL BANK QATAR"
+            },
+            {
+                "listName": null,
+                "id": "812",
+                "description": "CENTRAL BANK OMAN OMANNET(002)"
+            },
+            {
+                "listName": null,
+                "id": "813",
+                "description": "SAMA"
+            },
+            {
+                "listName": null,
+                "id": "814",
+                "description": "DUBAI GOVT"
+            },
+            {
+                "listName": null,
+                "id": "815",
+                "description": "Ministry of Foreign Trade"
+            },
+            {
+                "listName": null,
+                "id": "816",
+                "description": "National Media Council"
+            },
+            {
+                "listName": null,
+                "id": "817",
+                "description": "Gen Auth of Islamic Affairs and Endowments"
+            },
+            {
+                "listName": null,
+                "id": "818",
+                "description": "Federal Authority for Government Human Resources"
+            },
+            {
+                "listName": null,
+                "id": "819",
+                "description": "Emirates Authority for Standardization and Meterology"
+            },
+            {
+                "listName": null,
+                "id": "820",
+                "description": "Federal Customs Authority"
+            },
+            {
+                "listName": null,
+                "id": "821",
+                "description": "Institure of Training and Judicial Studies"
+            },
+            {
+                "listName": null,
+                "id": "822",
+                "description": "National Bureau of Statistics"
+            },
+            {
+                "listName": null,
+                "id": "823",
+                "description": "National Tourism and Heritage Authority"
+            },
+            {
+                "listName": null,
+                "id": "824",
+                "description": "UAE Government MOF"
+            },
+            {
+                "listName": null,
+                "id": "899",
+                "description": "SUNDRY CREDITS CB PAYMENTS"
+            }
+        ]
+    }
+}

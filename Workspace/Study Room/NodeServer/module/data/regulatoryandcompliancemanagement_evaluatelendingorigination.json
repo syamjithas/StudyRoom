@@ -1,0 +1,130 @@
+{
+    "uuid": null,
+    "correlationId": null,
+    "sessionId": null,
+    "errorInformationList": null,
+    "applicationReferenceNumber": "BCC0808180226",
+    "finalDecision": "REFER L3",
+    "reason": [
+        "Applicant is Not Eligible  based on Card Application Score & Bureau Score",
+        "No AECB records found"
+    ],
+    "overallCreditLimit": "0",
+    "eligibleProductList": [
+        {
+            "productType": null,
+            "productId": 5,
+            "productSubType": "VP",
+            "productName": "Visa Platinum",
+            "productInformation": null,
+            "approvedCreditLimit": null,
+            "productDetails": {
+                "productName": "Visa Platinum",
+                "rate": "Monthly Interest Rate – 2.99% p.m.\nAnnual Fee: No Annual Fee\n",
+                "easyInstallmentPlan": "T&C apply.\n",
+                "benefits": "VOX Cinemas discount in UAE, Purchase your tickets online and choose visa offer to get 50% discount (only applies on Saturday shows). Offer is valid till 30 September 2018.\n",
+                "attijariPoints": "Earn up to 2 points for every dirham spent. Redeem as Cash Back, Emirates Skywards Miles, or Etihad Guest Miles.\n",
+                "productId": null,
+                "productTypeCode": "VP",
+                "minimumLimit": "5000",
+                "minimumDsrLimit": "10000",
+                "maximumLimit": "500000"
+            },
+            "maximumCreditLimit": null
+        },
+        {
+            "productType": null,
+            "productId": 4,
+            "productSubType": "MCT",
+            "productName": "Titanium Mastercard",
+            "productInformation": null,
+            "approvedCreditLimit": null,
+            "productDetails": {
+                "productName": "Titanium Mastercard",
+                "rate": "Monthly Interest Rate – 2.99% p.m.\nAnnual Fee: No Annual Fee\n",
+                "easyInstallmentPlan": "T&C apply.\n",
+                "benefits": "Complimentary access to over 10 VIP lounges in UAE, KSA, Jordan, Kuwait and Egypt.\n20% discounts on Careem rides twice a month.\nHundreds of complimentary offers across casual dining, attractions and more in Middle East & Africa with Mastercard Buy 1 Get 1 app.\n",
+                "attijariPoints": "Earn up to 1.5 points for every dirham spent. Redeem as Cash Back, Emirates Skywards Miles, or Etihad Guest Miles.\n",
+                "productId": null,
+                "productTypeCode": "MCT",
+                "minimumLimit": "5000",
+                "minimumDsrLimit": "15000",
+                "maximumLimit": "500000"
+            },
+            "maximumCreditLimit": null
+        },
+        {
+            "productType": null,
+            "productId": 3,
+            "productSubType": "VS",
+            "productName": "Visa Signature",
+            "productInformation": null,
+            "approvedCreditLimit": null,
+            "productDetails": {
+                "productName": "Visa Signature",
+                "rate": "Monthly Interest Rate – 2.99% p.m.\nAnnual Fee: AED 500* (first year free)\n* Waived for annual spends above AED 65,000\n",
+                "easyInstallmentPlan": "T&C apply.\n",
+                "benefits": "50% discount on VOX Cinema tickets across the UAE (T&C apply).\nFree valet parking at selected Valtrans locations, 2 times per month (T&C apply).\nUnlimited complimentary access to VIP airport lounges globally for cardholder only.\n",
+                "attijariPoints": "Earn up to 2.5 points for every dirham spent. Redeem as Cash Back, Emirates Skywards Miles, or Etihad Guest Miles.\n",
+                "productId": null,
+                "productTypeCode": "VS",
+                "minimumLimit": "10000",
+                "minimumDsrLimit": "20000",
+                "maximumLimit": "500000"
+            },
+            "maximumCreditLimit": null
+        },
+        {
+            "productType": null,
+            "productId": 2,
+            "productSubType": "VI",
+            "productName": "Visa Infinite",
+            "productInformation": null,
+            "approvedCreditLimit": null,
+            "productDetails": {
+                "productName": "Visa Infinite",
+                "rate": "Monthly Interest Rate – 2.99% p.m.\nAnnual Fee: AED 750* (first year free)\n* Waived for annual spends above AED 100,000\n",
+                "easyInstallmentPlan": "T&C apply.\n",
+                "benefits": "50% discount on VOX Cinema tickets across the UAE (T&C apply).\nFree valet parking at selected Valtrans locations, 3 times per month (T&C apply).\nUnlimited complimentary access to VIP airport lounges globally for cardholder and one additional guest.\nComplimentary access to Pharaoh’s Fitness Club (T&C apply).\n",
+                "attijariPoints": "Earn up to 2.5 points for every dirham spent. Redeem as Cash Back, Emirates Skywards Miles, or Etihad Guest Miles.\n",
+                "productId": null,
+                "productTypeCode": "VI",
+                "minimumLimit": "20000",
+                "minimumDsrLimit": "20000",
+                "maximumLimit": "500000"
+            },
+            "maximumCreditLimit": null
+        }
+    ],
+    "eligilbleCreditCardList": [
+        {
+            "productType": "CreditCard",
+            "productId": 5,
+            "productSubType": "VP",
+            "productName": "Visa Platinum",
+            "productInformation": null,
+            "approvedCreditLimit": null,
+            "productDetails": {
+                "productName": "Visa Platinum",
+                "rate": "Monthly Interest Rate – 2.99% p.m.\nAnnual Fee: No Annual Fee\n",
+                "easyInstallmentPlan": "T&C apply.\n",
+                "benefits": "VOX Cinemas discount in UAE, Purchase your tickets online and choose visa offer to get 50% discount (only applies on Saturday shows). Offer is valid till 30 September 2018.\n",
+                "attijariPoints": "Earn up to 2 points for every dirham spent. Redeem as Cash Back, Emirates Skywards Miles, or Etihad Guest Miles.\n",
+                "productId": null,
+                "productTypeCode": "VP",
+                "minimumLimit": "5000",
+                "minimumDsrLimit": "10000",
+                "maximumLimit": "500000"
+            },
+            "maximumCreditLimit": null
+        }
+    ],
+    "showExceptionalFlow": 0,
+    "eligibleLoanAmount": null,
+    "requestedLoanAmount": null,
+    "tenor": null,
+    "approvedLoanDetails": null,
+    "eligibleLoanDetailsList": [],
+    "marketingDeviationFlag": null,
+    "overDraftData": []
+}

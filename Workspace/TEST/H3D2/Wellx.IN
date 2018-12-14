@@ -1,0 +1,19 @@
+*** Input File Well.in *****************
+iWell
+4
+NumVol
+6
+hOld1	hOld2
+0.5	-5.2
+RadiusP,RadiusI
+0.1	0.38
+zBot(i)	zTop(i)	RadiusW(i)	Porosity(i)
+-4.6	-1.8	0.38		1
+-29.4	-7.2	0.38		0.5
+-5.2	-4.6	0.4		0.5
+-4.6	-1.8	0.4		0.5
+-1.8	0	0.4		0.5
+0	2	10		1
+WellPump	cWell
+0		0
+****************************************

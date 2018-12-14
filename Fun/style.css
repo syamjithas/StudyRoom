@@ -1,0 +1,40 @@
+  html,
+  body {
+      height: 100%;
+      widows: 100%;
+      padding: 5%;
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+      text-align: center;
+      overflow-y: scroll
+  }
+  
+  .content {
+      position: relative;
+      color: white;
+      font-size: 30px;
+      font-family: monospace;
+  }
+  
+  .left {
+      position: relative;
+      color: white;
+      font-size: 30px;
+      font-family: monospace;
+      text-align: left
+  }
+  
+  .heart {
+      font-size: 150px;
+      color: #e00;
+      animation: beat .25s infinite alternate;
+      transform-origin: center;
+      cursor: pointer;
+  }
+  
+  @keyframes beat {
+      to {
+          transform: scale(1.4);
+      }
+  }

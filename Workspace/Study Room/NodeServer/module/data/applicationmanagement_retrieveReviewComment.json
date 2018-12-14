@@ -1,0 +1,27 @@
+{
+    "uuid": "31659F85-3A8C-43FA-8FA3-F78A4088DEE9",
+    "correlationId": "",
+    "sessionId": "",
+    "commentHistory": [
+        {
+            "reviewCommentId": 5697,
+            "applicationReferenceNumber": "MB68214721",
+            "reviewerRole": "CBDNow COD",
+            "taskId": "00155D3C-9909-11E8-ED43-B5F750C6D10D",
+            "nextAction": "APPROVE",
+            "createdDate": 1528353992873,
+            "createUser": "MOHD3034",
+            "submitFlag": 1
+        },
+        {
+            "reviewCommentId": 5695,
+            "applicationReferenceNumber": "MB68214721",
+            "reviewerRole": "CBDNow Onboarder Admin",
+            "taskId": "00155D3C-9909-11E8-ED42-0B52E89E910D",
+            "nextAction": "SUBMIT",
+            "createdDate": 1528353647283,
+            "createUser": "VALA3324",
+            "submitFlag": 1
+        }
+    ]
+}

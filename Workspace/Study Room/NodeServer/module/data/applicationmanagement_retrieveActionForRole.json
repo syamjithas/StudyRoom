@@ -1,0 +1,50 @@
+{
+    "uuid": "33660103-1383-443A-99D4-D5040AA0B951",
+    "correlationId": "",
+    "sessionId": "",
+    "errorInformationList": null,
+    "roleDecisionList": [
+        {
+            "action": "COMPLETE",
+            "decision": "APPROVE",
+            "displayName": "APPROVE",
+            "status": "13"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "REJECT",
+            "displayName": "DECLINE",
+            "status": "15"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "SENDFORREWORK",
+            "displayName": "SEND FOR REWORK",
+            "status": "32"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "REJECT",
+            "displayName": "REJECT",
+            "status": "43"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "SENDTOINITIATOR",
+            "displayName": "SEND TO INITIATOR",
+            "status": "5"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "SENDTOL2",
+            "displayName": "REFER TO L2",
+            "status": "14"
+        },
+        {
+            "action": "COMPLETE",
+            "decision": "SENDTOL3",
+            "displayName": "REFER TO L3",
+            "status": "14"
+        }
+    ]
+}
