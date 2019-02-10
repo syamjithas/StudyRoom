@@ -1,29 +1,42 @@
-const sql = require('mssql')
-var config = {
-    user: 'COBUAT',
-    password: 'COBUAT$2016',
-    server: '172.16.60.195',
-    driver: 'tedious',
-    database: 'PL_APP_UAT',
-    options: {
-        instanceName: 'SQL2014',
-        max: 10,
-        min: 0,
-        idleTimeoutMillis: 30000,
-        encrypt: true
-    }
+const oracledb = require("oracledb");
+const config = {
+  user: "default", // Update me
+  password: "oracle$", // Update me
+  connectString: "localhost:1521/xe" // Update me
 };
 
-var Master = require('./Master');
-var threadStarter = new Master();
-threadStarter.start(1)
+async function getEmployee(empId) {
+  let conn;
 
-module.exports = {
-    runQuery: function (query, callback) {
-        threadStarter.runQuery(query, callback)
+  try {
+    conn = await oracledb.getConnection(config);
+
+    const result = await conn.execute(
+      "select * from employees where employee_id = :id",
+      [empId]
+    );
+
+    console.log(result.rows[0]);
+  } catch (err) {
+    console.log("Ouch!", err);
+  } finally {
+    if (conn) {
+      // conn assignment worked, need to close
+      await conn.close();
     }
+  }
 }
 
+getEmployee(101);
+// var Master = require("./Master");
+// var threadStarter = new Master();
+// threadStarter.start(1);
+
+// module.exports = {
+//   runQuery: function(query, callback) {
+//     threadStarter.runQuery(query, callback);
+//   }
+// };
 
 // module.exports = {
 //     runQuery: function (query, callback) {

@@ -1,0 +1,41 @@
+{
+  "name": "mode-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "install-windows-service": "winser -i --description 3002 --displayname MOCK-BPM",
+    "uninstall-windows-service": "winser -r",
+    "start-server": "winser --startwithnpm"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "~1.18.2",
+    "body-parser-xml": "^1.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dom-parser": "^0.1.5",
+    "engine.io": "~3.2.0",
+    "express": "^4.16.3",
+    "has-binary2": "~1.0.2",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.1.1",
+    "morgan": "~1.9.0",
+    "msnodesqlv8": "^0.6.8",
+    "mssql": "^4.1.0",
+    "node-file-logger": "^0.9.5",
+    "pug": "2.0.0-beta11",
+    "query-string": "^6.1.0",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.1.1",
+    "socket.io-adapter": "~1.1.0",
+    "socket.io-client": "2.1.1",
+    "socket.io-parser": "~3.2.0",
+    "tedious": "^2.7.0",
+    "when": "^3.7.8",
+    "winser": "^1.0.3",
+    "xml-js": "^1.6.7",
+    "xml-parse": "^0.3.1"
+  },
+  "devDependencies": {}
+}
