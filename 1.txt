@@ -1,0 +1,20 @@
+var header = [];
+            header.push("Date")
+            var surveyData = [];
+            surveyData.push(data.date)
+            data.surveyData.forEach(function (item) {
+                header.push(item.questionEng);
+                surveyData.push(item.rating);
+            })
+            surveyData = _.zip.apply(_, surveyData);
+            var servey_sheeet = [];
+            servey_sheeet.push(Object.assign({}, header))
+            surveyData.forEach(function (item) {
+                servey_sheeet.push(Object.assign({}, item))
+            })
+            var opts = [{ sheetid: 'Survey', header: true }];
+            var result = alasql('SELECT * INTO XLSX("Survey.xlsx",?) FROM ?',
+                [opts, [servey_sheeet]]);
+        }
+
+    });
