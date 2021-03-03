@@ -22,7 +22,7 @@
         "morgan": "~1.9.0",
         "mssql": "^4.1.0",
         "node-sspi": "^0.2.3",
-        "pug": "2.0.0-beta11",
+        "pug": "3.0.1",
         "socket.io": "^2.1.1",
         "socket.io-adapter": "^1.1.1",
         "socket.io-client": "^2.1.1",
